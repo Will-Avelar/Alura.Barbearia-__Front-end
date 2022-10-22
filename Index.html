@@ -1,27 +1,46 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br"> 
+
 <head>
     <!--tag head é a cabeça, tudo aquilo que queremos passar para o navegador -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura html.css3</title>
-    
-    <h1> Sobre a Barbearia Alura</h1>
+
+    <!--esta tag abaixo linka o html a pagina do css-->
+    <!--com a propriedade rel= e com valor stylesheet que é folha de estilo rel="stylesheet"-->
+    <!--href="" que é o endereço de referencia neste caso a pagina style.css-->
+    <!--esta é a forma correta de se fazer, pois outro hatml pode usar o mesmo css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--esta tag style dentro do head para automatizar a forma de edição, isso é uma class, ou seja ess propriedade do text-align: center esta sendo adicionada a todos os paragrafos-->
+    <!--as tags que estavam aqui dentro de style foram passadas para a pagina css e linkadas com o comando acima-->
+    <style>
+
+    </style>
+
+ </head>
+
+ <body>
+    <!--tag abaaixo de imagem o src é de source mas se usa abreviado e a imagem deve estar dentro da pastas do html-->
+    <img id="banner" src="banner.jpg">
+    <!--Esta propriedade abaixo alinha au centro style="text-align: center-->
+    <!--essa propriedade abaixo background marca os paragrafos com a cor escolhida background: #cccccc dentro da propriedade-->
+    <h1>Sobre a Barbearia Alura</h1>
     <!--tag <h1> ate <h6> titulos e subtitulos-->
     <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
     <!--tag <STRONG> marca o texto em negrito-->
         <!--para mexer na apresentação visual dos elementos nao se usa as tags se uma o css o caso vem abaixo o css foi introduzido 
         na tag do paragrafo para mexer em todo o conteudo -->
-    <!--foi adicionado a propriedade Style="finte-size: 20px"-->
-    <p style="font-size: 20px"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes".</strong></em></p>
+    <!--foi adicionado a propriedade Style="finte-size: 20px"--> <!--text-align: center nesta condição é por conta de ja existir uma propriedade css, mas separamos por ;-->
+    <p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes".</strong></em></p>
     <!--tag <em> é uma tag de ênfase deixando-a em itálico-->
-    <p>Oferece.mos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+    <p> Oferece.mos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
     <!--tag <p paragrafo-->
-
-</head>
-<body>
     <!--tag body é o corpo, tudo aquilo que queremos exibir na nossa pagina fica no Body-->   
     <!--O conteúdo fica no body e informações no head-->
+    <!--, o estilo dos textos são formatados com css -->
+    <!-- na linha onde tem a tag, quando vc add um css ele é chamado de css in-line-->
 </body>
 </html>
