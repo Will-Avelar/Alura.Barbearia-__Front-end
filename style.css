@@ -1,26 +1,49 @@
-/*uma boa estrutura de css deve seguir a estrutura do html*/
-/*essa propriedade esta dentro da classe body para obter o fundo na classe toda.*/
-body {
-    background: #cccccc;
-}
-/*quando vc coloca a imagem em 100% ela ocupa todo o espaço e se move com a mesma*/
-#banner {
-width: 100%;
-}
+    /*uma boa estrutura de css deve seguir a estrutura do html*/
+    /*essa propriedade esta dentro da classe body para obter o fundo na classe toda.*/
+   /* body {
 
-h1 {
-    text-align: center;
-}
-p {
-    text-align: center;
-}
-/*esta #missão é a id que criamos la no html entao o css trouxe so a id missao e nao todo paragrafo*/
-#missao {
-    font-size: 20px
+    }*/
+    .titulo-pricipal {
+        padding-left: 20px;
+    }
+    /*quando vc coloca a imagem em 100% ela ocupa todo o espaço e se move com a mesma*/
+    #banner {
+    width: 100%;
+    }
+    .principal {
+        background: #cccccc;
+    }
 
- }
-/*neste caso esta pegando especifico de em*/
-em strong {
-    color: red;
-    
-}
+    .titulo-centralizado {
+     text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+    /*esta #missão é a id que criamos la no html entao o css trouxe so a id missao e nao todo paragrafo*/
+    #missao {
+        font-size: 20px
+
+    }
+    /*neste caso esta pegando especifico de em*/
+    em strong {
+        color: red;
+        
+    }
+    .itens {
+        font-style: italic;
+    }
+    .benefícios {
+    background-color: #ffffff;
+    padding: 20px;
+    }
+
+    ul {
+        display: inline-block;
+        vertical-align: top;
+        width: 20%;
+        margin-right: 15%;
+    }
+    .imagembeneficios {
+        width: 50%;
+    }
