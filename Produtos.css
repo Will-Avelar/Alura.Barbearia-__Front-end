@@ -35,14 +35,21 @@ nav a {
    text-align: center;
    width: 30%;
    vertical-align: top;
+   margin: 0 1.50%; /*espaçamento entre as imagens*/
+   padding: 30px 20px;/*espaçamento interno*/
+   box-sizing: border-box;/*espaçamento lateral esteja dentro do percentual do width*/
+   border: 2px solid #000000; /*essas 3 declarações definem a borda... borda, tipo e cor*/
+   border-radius: 10px; /*essas 3 declarações definem a bordas arredondadas, posso ainda colocar cada conto com um valor*/
 }
 .produtos h2 {
    font-size: 30px;
    font-weight: bold;
+   margin: 10px;
 }
 .produto-preco {
    font-size: 22px;
    font-weight: bold;
+   margin-top: 10px;
 }
 .descricao-servico {
    font-size: 18px;
