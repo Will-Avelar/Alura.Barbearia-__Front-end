@@ -8,10 +8,12 @@
     }
     /*quando vc coloca a imagem em 100% ela ocupa todo o espaço e se move com a mesma*/
     #banner {
-    width: 100%;
+    width: 106%;
     }
     .principal {
-        background: #cccccc;
+        background: #ccccbb;
+        padding:1%;
+        width: 100%
     }
 
     .titulo-centralizado {
@@ -30,9 +32,18 @@
         color: red;
         
     }
+    .entre  {
+        font-style: italic ;
+        text-align: center;
+       
+        
+         
+     }
     .itens {
-        font-style: italic;
+        font-style: italic ;
     }
+  
+
     .benefícios {
     background-color: #ffffff;
     padding: 20px;
@@ -44,6 +55,8 @@
         width: 20%;
         margin-right: 15%;
     }
+    
     .imagembeneficios {
         width: 50%;
     }
+

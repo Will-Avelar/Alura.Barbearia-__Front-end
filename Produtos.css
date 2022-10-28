@@ -24,6 +24,12 @@ nav a {
    text-decoration: none;
 
 }
+
+nav a:hover {
+color: #31f30a;
+text-decoration: underline;
+}
+
 .produtos {
    width: 940px;
    margin: 0  auto;
@@ -41,8 +47,20 @@ nav a {
    border: 2px solid #000000; /*essas 3 declarações definem a borda... borda, tipo e cor*/
    border-radius: 10px; /*essas 3 declarações definem a bordas arredondadas, posso ainda colocar cada conto com um valor*/
 }
+.produtos li:hover {
+   font-size: 40px;
+   border-color: #31f30a; 
+}
+
+.produtos li:active {
+border-color: #eb06b9;
+}
+
+.produtos li:hover h2 {
+   font-size: 32px;
+}
 .produtos h2 {
-   font-size: 30px;
+   font-size: 20px;
    font-weight: bold;
    margin: 10px;
 }
@@ -52,6 +70,17 @@ nav a {
    margin-top: 10px;
 }
 .descricao-servico {
-   font-size: 18px;
+   font-size: 18px;  
+}
+
+footer {
+   text-align: center;
+   background: url("bg.jpg");
+   padding: 40px 0 ;
+}
+.copyright {
+   color: white;
+   font-size: 13px;
+   margin: 20px 0 0 ;
    
 }
