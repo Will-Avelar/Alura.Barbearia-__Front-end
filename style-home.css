@@ -1,0 +1,56 @@
+    /*uma boa estrutura de css deve seguir a estrutura do html*/
+    /*essa propriedade esta dentro da classe body para obter o fundo na classe toda.*/
+   /* body {
+
+    }*/
+    .titulo-principal {
+        padding-left: 20px;
+        text-align: center;
+    }
+  
+    /*quando vc coloca a imagem em 100% ela ocupa todo o espaço e se move com a mesma*/
+    #banner {
+    width: 106%;
+    }
+    .principal {
+        background: #ccccbb;
+        padding:1%;
+        width: 100%
+    }
+
+    .titulo-centralizado {
+     text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+    /*esta #missão é a id que criamos la no html entao o css trouxe so a id missao e nao todo paragrafo*/
+    #missao {
+        font-size: 20px
+
+    }
+    /*neste caso esta pegando especifico de em*/
+    em strong {
+        color: red;  
+    }
+
+    .itens {
+        font-style: italic;
+        margin-left: 20%;
+      
+
+    }
+
+    .benefícios {
+    background-color: #ffffff;
+    padding: 20px;
+    }
+
+    ul {
+        display: inline-block;
+        vertical-align: top;
+        width:75%;
+        margin-right: 15%;
+        text-align: center;
+    }
+    
