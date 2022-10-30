@@ -1,5 +1,5 @@
 header {
-   background: #b4b3b3;
+   background: url("bg.jpg");
    padding: 20px 0; 
 }
 .caixa {
@@ -18,7 +18,7 @@ nav li{
 }
 nav a {
    text-transform: uppercase;
-   color: #000000;
+   color: #a3a0a0;
    font-weight: bold;
    font-size: 22px;
    text-decoration: none;
@@ -76,8 +76,9 @@ border-color: #eb06b9;
 footer {
    text-align: center;
    background: url("bg.jpg");
-   padding: 40px 0 ;
+   padding: 20px 0 ;
 }
+
 .copyright {
    color: white;/*cor de texto*/
    font-size: 13px;

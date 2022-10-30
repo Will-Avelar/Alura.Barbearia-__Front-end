@@ -21,6 +21,7 @@
     .titulo-centralizado {
      text-align: center;
     }
+
     p {
         text-align: center;
     }
@@ -37,15 +38,13 @@
     .itens {
         font-style: italic;
         margin-left: 20%;
-      
-
     }
 
     .benefícios {
     background-color: #ffffff;
     padding: 20px;
     }
-
+    
     ul {
         display: inline-block;
         vertical-align: top;
