@@ -75,10 +75,12 @@ border-color: #eb06b9;
 
 footer {
    text-align: center;
-   background: url("bg.jpg");
-   padding: 20px 0 ;
+   background: url("preto00.png");
+   padding: 5px 0 0 20px ;
 }
-
+.willavelar{
+  width: 50px;
+}
 .copyright {
    color: white;/*cor de texto*/
    font-size: 13px;
