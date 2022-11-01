@@ -3,11 +3,12 @@
    /* body {
 
     }*/
-    .titulo-principal {
-        padding-left: 20px;
+    .titul-principal {
+        padding-left: 100px;
         text-align: center;
+        color:beige;
     }
-  
+
     /*quando vc coloca a imagem em 100% ela ocupa todo o espaço e se move com a mesma*/
     #banner {
     width: 106%;
@@ -17,10 +18,10 @@
         padding:1%;
         width: 100%
     }
-
-    .titulo-centralizado {
-     text-align: center;
+    .principal{
+        text-align: center;
     }
+  
 
     p {
         text-align: center;

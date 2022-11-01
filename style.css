@@ -1,5 +1,5 @@
 header {
-   background: url("bg.jpg");
+   background: url("preto00.png");
    padding: 20px 0; 
 }
 .caixa {
@@ -53,7 +53,7 @@ text-decoration: underline;
 }
 
 .produtos li:active {
-border-color: #eb06b9;
+border-color: red;
 }
 
 .produtos li:hover h2 {
@@ -136,5 +136,36 @@ td, th {
    padding: 3px 10px;
    width: 165px;
    text-align: center;
+}
+/*css da pagina inicial*/
+.banner{
+width: 100%;
+padding: 5px 0 0 0;
+}
 
+.titulo-principal {
+   text-align: center;
+   font-size: 2em;
+   margin: 0 0 1em;
+   clear: left;
+   margin: 0 0 100px 0;
+}
+.principal p {
+ margin: 0 0 1em;
+}
+.principal strong {
+   font-weight: bold;
+}
+.principal em {
+   font-style: italic;
+}
+
+.utensilios {
+   width: 120px;
+   float: left;
+   margin: 0px 20px 20px 0px;
+}
+
+.imagembeneficios {
+   width: 60%;
 }
