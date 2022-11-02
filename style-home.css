@@ -1,8 +1,7 @@
     /*uma boa estrutura de css deve seguir a estrutura do html*/
     /*essa propriedade esta dentro da classe body para obter o fundo na classe toda.*/
-   /* body {
 
-    }*/
+  
     .titul-principal {
         padding-left: 100px;
         text-align: center;
@@ -22,7 +21,6 @@
         text-align: center;
     }
   
-
     p {
         text-align: center;
     }
@@ -54,3 +52,5 @@
         text-align: center;
     }
 
+
+ 
