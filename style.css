@@ -111,7 +111,7 @@ form label, legend {
 .enviar {
    width: 40%;/*aumentar largura*/
    padding: 15px 0;/*aumentar espaçamento interno*/
-   background: #31f30a;/*cor do botao*/
+   background: linear-gradient(#31f30a, #00eaff);/*cor do botao*/
    font-weight: bold;/*fonte com peso*/
    font-size: 18px;/*tamanho do texto*/
    border: none; /*sem bordas padrão*/
@@ -120,16 +120,16 @@ form label, legend {
    cursor: pointer; /*--muda a seta para a maozinha*/
 }
 .enviar:hover {
-   background: #000000f9; /*faz transiçao de cor juntamente com a declaraçao transition: 3s background;*/
+   background: linear-gradient( #00eaff #31f30a,);/*faz transiçao de cor juntamente com a declaraçao transition: 3s background;*/
    transform: scale(1.2);/*aumente o botao automaticamente*/
    /*transform: rotate(180deg);/*faz uma rotação*/
-   color: #31f30a;
+   color: #060606;
 }
 table {
    margin: 20px 0 40px;
 }
 thead {
-   background-color: #31f30a;
+   background: linear-gradient(#00eaff, #31f30a);
    color: #000000;
    font-weight: bold;
 }
@@ -142,7 +142,8 @@ td, th {
 /*css da pagina inicial*/
 .banner{
 width: 100%;
-padding: 5px 0 0 0;
+padding: 2px 0 0 0;
+background-color: #31f30a;
 }
 
 .titulo-principal {
@@ -154,6 +155,7 @@ padding: 5px 0 0 0;
 }
 .principal p {
  margin: 0 0 1em;
+ text-align: center;
 }
 .principal strong {
    font-weight: bold;
@@ -167,7 +169,6 @@ padding: 5px 0 0 0;
    float: left;/*casa um texto esteja abaixo da imagem, o flot, flutua a imagem e o texto neste caso foi para sua esquerda*/
    margin: 0 20px; 
 
-
 }
 .mapa p {
    text-align: right;
@@ -176,24 +177,29 @@ padding: 5px 0 0 0;
 }
 .video {
 width: 560px; 
-margin: 1em auto;  
+margin: 1em auto; 
+box-shadow: 10px 10px 5px #000000; 
 }
-.conteudo-beneficios {
-   width: 640px;
-   margin: 0 auto;
-}
+
 .lista-beneficios {
-   width: 33%;
-   display: inline-block;
-   vertical-align: 600%;
-   margin: 0 0  0;
+   vertical-align: 200%;
    text-align: center;
-   font-weight: bold;
+   font-weight: bold;/*fonte com peso*/
+   font-size: 19px;/*tamanho do texto*/
+   cursor: pointer;
+   margin: 10px auto;
 
 }
 .imagem-beneficios {
-   width: 60%;
-   
+   width: 410px; 
+   padding-left: 2%;
+   opacity: 0.8;/*ocupacidade de visualização de imagem, neste caso esta apresentando 90% */
+  transition: 900ms;
+  box-shadow: 10px 10px 10px 2px #000000; 
+  
+}
+.imagem-beneficios:hover {
+   opacity: 1;
 }
 .mapa {
    color:  #a3a0a0;
@@ -203,4 +209,14 @@ margin: 1em auto;
 }
 .itens {
    line-height: 1.5; /*espaçamento entre o testo um a baixo do outro*/
+}
+main > p {
+text-align: center;
+margin: 50PX 0 0 0;
+font-size: 30PX;
+}
+@media screen and (max-width: 480px) {
+.caixa, .principal, .imagem-beneficios, .mapa, .video {
+width: auto;
+}
 }
