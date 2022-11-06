@@ -197,6 +197,7 @@ box-shadow: 10px 10px 5px #000000;
   transition: 900ms;
   box-shadow: 10px 10px 10px 2px #000000; 
   
+  
 }
 .imagem-beneficios:hover {
    opacity: 1;
@@ -215,8 +216,27 @@ text-align: center;
 margin: 50PX 0 0 0;
 font-size: 30PX;
 }
-@media screen and (max-width: 480px) {
-.caixa, .principal, .imagem-beneficios, .mapa, .video {
+@media screen and (max-width: 480px) { /*pergunta ao navegador o tamanho da tela, e dependendo de qual for muda-se o estilo*/
+.caixa, .principal, .imagem-beneficios, .mapa, .video, .produtos li {
 width: auto;
+}
+h1 {
+   text-align: center
+}
+ul {
+   font-size: 30px;
+   text-align: center;
+}
+
+nav {
+position: static;
+}
+.imagem-beneficios{
+   width: 30%;
+}
+.produtos li {
+width: 40%;
+margin: 0 55% 0 0;
+
 }
 }

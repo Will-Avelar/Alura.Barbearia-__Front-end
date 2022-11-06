@@ -2,7 +2,7 @@
     /*essa propriedade esta dentro da classe body para obter o fundo na classe toda.*/
 
   
-    .titul-principal {
+    .titulo-principal {
         padding-left: 100px;
         text-align: center;
         color:beige;
@@ -15,14 +15,16 @@
     .principal {
         background: #ccccbb;
         padding:1%;
-        width: 100%
+        width: 100%;
+        
     }
     .principal{
-        text-align: center;
+        text-align: center;    
     }
   
     p {
         text-align: center;
+       
     }
     /*esta #missão é a id que criamos la no html entao o css trouxe so a id missao e nao todo paragrafo*/
     #missao {
